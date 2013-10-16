@@ -14,7 +14,6 @@ Guava | Guava Factory
 `ImmutableList.of(1,2,3)` | `list(1,2,3)`
 `ImmutableSet.of(1,2,3)` | `set(1,2,3)`
 `ImmutableSortedSet.of(3,1,2)` | `sortedSet(3,1,2)`
-`ImmutableSortedSet.of(3,1,2)` | `sortedSet(3,1,2)`
 `ImmutableMultiset.of(3,1,2,2)` | `multiset(3,1,2,2)`
 `ImmutableSortedMultiset.of(3,1,2,2)` | `sortedMultiset(3,1,2,2)`
 `ImmutableMap.of(1,"a",2,"b")` | `map(1,"a",2,"b")`
