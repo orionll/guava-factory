@@ -28,10 +28,10 @@ Guava | Guava Factory
 Iterating over integer ranges:
 ```java
 for (int i : fromTo(0, 10)) {
-    System.out.println(i); // 1, 2, 3, ... , 10
+    System.out.println(i); // 0, 1, 2, 3, ... , 10
 }
 
 for (int i : fromUntil(0, 10)) {
-    System.out.println(i); // 1, 2, 3, ... , 9
+    System.out.println(i); // 0, 1, 2, 3, ... , 9
 }
 ```
