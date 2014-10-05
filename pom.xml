@@ -4,13 +4,21 @@
 
   <groupId>com.github.guava</groupId>
   <artifactId>guava-factory</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1</version>
 
   <properties>
     <guava.version>14.0.1</guava.version>
     <java.version>1.6</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+  <distributionManagement>
+    <repository>
+      <id>bintray-kozlov-maven-guava-factory</id>
+      <name>kozlov-maven-guava-factory</name>
+      <url>https://api.bintray.com/maven/kozlov/maven/guava-factory</url>
+    </repository>
+  </distributionManagement>
 
   <dependencies>
     <dependency>
