@@ -35,3 +35,21 @@ for (int i : fromUntil(0, 10)) {
     System.out.println(i); // 0, 1, 2, 3, ... , 9
 }
 ```
+
+## Maven
+Add to your pom.xml file:
+```xml
+<repositories>
+  <repository>
+    <id>bintray-kozlov</id>
+    <url>http://dl.bintray.com/kozlov/maven</url>
+  </repository>
+</repositories>
+```
+```xml
+<dependency>
+  <groupId>com.github.guava</groupId>
+  <artifactId>guava-factory</artifactId>
+  <version>0.1</version>
+</dependency>
+```
