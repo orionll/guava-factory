@@ -41,8 +41,8 @@ Add to your pom.xml file:
 ```xml
 <repositories>
   <repository>
-    <id>bintray-kozlov</id>
-    <url>http://dl.bintray.com/kozlov/maven</url>
+    <id>bintray</id>
+    <url>http://jcenter.bintray.com</url>
   </repository>
 </repositories>
 ```
